@@ -1,5 +1,6 @@
 package com.fw.mvp.mvp;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -58,6 +59,7 @@ public class MVPActivity extends AppCompatActivity implements IMVPView, View.OnC
         return editText.getText().toString().trim();
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     public void showSuccessPage(Acount acount) {
         textView.setText(acount.getName() + " | " + acount.getLevel());
