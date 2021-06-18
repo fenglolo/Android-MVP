@@ -3,7 +3,7 @@ package com.fw.mvp.mvp.view;
 import com.fw.mvp.bean.Acount;
 
 /**
- * description :
+ * description :View层接口，其具体实现类为MVPActivity
  * author : apple
  * date : 2021/6/16 11:03
  */

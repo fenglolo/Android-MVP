@@ -1,7 +1,7 @@
 package com.fw.mvp.mvp.presenter;
 
 /**
- * description :
+ * description :Presenter层接口
  * author : apple
  * date : 2021/6/16 15:24
  */

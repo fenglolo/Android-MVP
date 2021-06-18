@@ -7,7 +7,7 @@ import com.fw.mvp.mvp.model.MVPModel;
 import com.fw.mvp.mvp.view.IMVPView;
 
 /**
- * description :
+ * description :Presenter层实现
  * author : apple
  * date : 2021/6/16 11:11
  */

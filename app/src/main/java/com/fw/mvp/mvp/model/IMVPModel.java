@@ -3,15 +3,17 @@ package com.fw.mvp.mvp.model;
 import com.fw.mvp.callback.MCallback;
 
 /**
- * description :
+ * description :Model层接口
  * author : apple
  * date : 2021/6/16 15:19
  */
 public interface IMVPModel {
     /**
-     * 返回 账号｜等级
+     * 成功：返回数据
+     * 失败：回调失败
      *
-     * @return
+     * @param name
+     * @param mCallback
      */
     void getAcountData(String name, MCallback mCallback);
 }

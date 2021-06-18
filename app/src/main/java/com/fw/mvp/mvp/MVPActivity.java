@@ -16,7 +16,7 @@ import com.fw.mvp.mvp.presenter.MVPPresenter;
 import com.fw.mvp.mvp.view.IMVPView;
 
 /**
- * description :
+ * description :View层实现类
  * author : apple
  * date : 2021/6/15 21:04
  */

@@ -2,21 +2,22 @@ package com.fw.mvp.mvp.model;
 
 import com.fw.mvp.bean.Acount;
 import com.fw.mvp.callback.MCallback;
-import com.fw.mvp.mvp.model.IMVPModel;
 
 import java.util.Random;
 
 /**
- * description :
+ * description :Model层实现
  * author : apple
  * date : 2021/6/16 11:06
  */
 public class MVPModel implements IMVPModel {
 
     /**
-     * 返回 账号｜等级
+     * 成功：返回数据
+     * 失败：回调失败
      *
-     * @return
+     * @param name
+     * @param mCallback
      */
     @Override
     public void getAcountData(String name, MCallback mCallback) {
